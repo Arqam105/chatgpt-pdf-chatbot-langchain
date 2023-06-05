@@ -7,9 +7,9 @@ import { PINECONE_INDEX_NAME, PINECONE_NAME_SPACE } from '@/config/pinecone';
 import { DirectoryLoader } from 'langchain/document_loaders/fs/directory';
 
 /* Name of directory to retrieve your files from 
-   Make sure to add your PDF files inside the 'docs' folder
+  Make sure to add your PDF files inside the 'docs' folder
 */
-const filePath = 'docs';
+const filePath = 'documents';
 
 export const run = async () => {
   try {
